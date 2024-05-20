@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>算命</title>
+        <link rel="stylesheet" href="./index.css"/>
+        <script src="./capability.js"></script>
+    </head>
+    <body>
+        <div>
+            <label>請輸入你的名字</label>
+            <input type="text" id="name">
+            <button onclick="updateSkills()">生成數字</button>
+        </div>
+        <div class="content">
+            <div class="profile-skills">
+                <div>
+                    <input type="checkbox" id="sk1">
+                    <label for="sk1"></label>
+                    <ul class="skills skills1">
+                        <li class="sk-IQ"><span>智商</span></li>
+                        <li class="sk-EQ"><span>情商</span></li>
+                        <li class="sk-health"><span>健康</span></li>
+                        <li class="sk-luck"><span>運氣</span></li>
+                    </ul>
+                    <li>滿分為100</li>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
